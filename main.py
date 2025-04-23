@@ -76,7 +76,7 @@ def scrapeWebsiteForLinks():
 
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Get the list of filenames in the s3 bucket so we don't download them again.
 s3filenames = getFileNamesFromBackBlazeS3()
