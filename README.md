@@ -1,6 +1,8 @@
 # Maryland-Public-Case-PDF-Scraper
  For Scraping the Public Case PDFs that the Court puts out daily.
 
+> **⚠️ This scraper no longer works.** As of November 2026, the Court has added CAPTCHAs (bot protection) to https://www.mdcourts.gov/data/case/. All automated requests now receive a `403 Forbidden` response, so the program can no longer retrieve the list of PDFs.
+
 ## Overview
 This scrapes the links for the PDFs located at https://www.mdcourts.gov/mdec/publiccases. Technically, the list itself is dynamically included to the page from https://www.mdcourts.gov/data/case/ which is the actualy url scraped in this program.
 
